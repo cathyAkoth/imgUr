@@ -1,0 +1,41 @@
+body{
+    background-color: blue;
+}
+.LeftRight{
+    color: white;
+}
+.LeftRight .Left{
+   
+    float: left;
+    width: 30%;
+
+
+   
+    
+}
+
+.LeftRight .Right{
+    float: right;
+    width: 70%;
+    
+}
+.LeftRight .Left p{
+    
+    padding: 30px;
+    padding-right: 40px;
+    margin: 10px;
+    box-sizing: border-box; 
+    font-size: 19px; 
+    
+}
+.LeftRight .Left h1{
+    
+    padding-top: 40px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 50px; 
+    border-bottom: 10px; 
+    margin-bottom: 0%;
+   
+    
+}
