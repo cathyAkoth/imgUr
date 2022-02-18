@@ -1,0 +1,32 @@
+.NavMenu{
+    background-color: brown;
+    color:white;
+    word-spacing: 5rem;
+}
+
+.NavMenu .Nav {
+    color: aliceblue;
+    padding: 10px;
+       
+}
+.NavMenu .Nav ul{
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.NavMenu .Nav li{
+    display: inline;
+      
+    
+}
+.NavMenu a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 50px;
+    
+
+}
+.NavMenu a:hover{
+    color: rgb(187, 83, 83);
+}
