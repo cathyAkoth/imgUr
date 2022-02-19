@@ -1,11 +1,17 @@
-import React from 'react';
-import './Main1.css';
+import React from 'react'
+import Navbar from '../components/Navbar'
+import Main from '../components/Main'
+import Main1 from '../components/Main1'
+import Main2 from '../components/Main2'
 import pic from '../images/phone.png';
-import Main2 from './Main2';
 
-const Main1 = () => {
+const First = () => {
   return (
-    <div className='Main'>
+    <div>
+    <div>
+    <Navbar />
+    </div>
+    <div>
     <div className='cain'>
     <div className='Left'>
         <h1>Community <br/> powered</h1>
@@ -16,14 +22,13 @@ const Main1 = () => {
     <div className='Right'>
         <img src={pic} alt={'phone'} />
     </div>
+    </div> 
     </div>
     <div>
-      <Main2 />
+        
     </div>
     </div>
-   
-    
   )
 }
 
-export default Main1
+export default First
